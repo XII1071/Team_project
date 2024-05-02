@@ -2,8 +2,15 @@
 <br>
 <div><h2>Team project B</h2><p>2024.03.25~2024.05.02</p></div>
 
+<br>
 
 <div align="center">
   <img src="main.png">
+<br>
+  <br>
+  <a href="https://xii1071.github.io/Team_project/"><img src="https://img.shields.io/badge/tourzy 바로가기-E34F26.svg?style=for-the-badge&logo=internetexplorer&logoColor=white" /></a>
 </div>
-<a href="https://xii1071.github.io/Team_project/"></a>
+
+<h4>Team Member</h4>
+
+<p>Aran Jo (Leader) <br> Wonbin Kim <br> Jieun Song <br> Jiwon Kang (me)</p>
