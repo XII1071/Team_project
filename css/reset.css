@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+
+html { font-size: 62.5%; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { overflow-x: hidden; font-size: 1.6rem; font-family: "Noto Sans KR", "Do Hyeon", sans-serif; line-height: 1.5;}
+a { color: #000; text-decoration: none; }
+ol, ul { list-style: none; }
+table { border-collapse: collapse; border-spacing: 0; border: 0 none; width: 100%; }
+address, caption, em { font-weight: normal; font-style: normal; }
+caption, legend, hr { display: none; }
+fieldset, img, input, select, textarea { border: 0 none; outline: none; }
+input, select, textarea { vertical-align: middle; }
+
+
+
+
+
+
+
