@@ -13,4 +13,4 @@
 
 <h4>Team Member</h4>
 
-<p>Aran Jo (Leader) <br> Wonbin Kim <br> Jieun Song <br> Jiwon Kang (me)</p>
+<p>aran Jo (Leader) <br> wonbin Kim <br> jieun Song <br> jiwon Kang (me)</p>
