@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.inner { max-width: 1200px; margin: 0 auto;}
+
+@media (max-width:1200px) {
+  .inner { width: auto; padding: 0 8%;}
+}
+
+/* section #mv */
+#mv { background: url(../img/common/mv_sub.png) no-repeat left top/cover; height: 561px; position: relative;}
+#mv .mv_bike { position: absolute; right: 40%; bottom: 30px; width: 195px;}
+#mv .mv_bike img { width: 100%;}
+#mv .mv_car { position: absolute; right: 20%; bottom: -15px; width: 280px;}
+#mv .mv_car img { width: 100%;}
+#mv h2 { margin-left: 20%; padding-top: 250px; font-family: "Do Hyeon", sans-serif; color: #F88B23; font-size: 6rem; font-weight: 400; position: relative;}
+#mv h2::before { content: ''; display: inline-block; width: 100px; height: 100px; background: url(../img/common/logo.png) no-repeat left / contain; position: absolute; left: 0; top: 180px;}
+
+@media (max-width:1200px) {
+  #mv .mv_bike { right: 35%;}
+  #mv .mv_car { right: 5%;}
+}
+@media (max-width:768px) {
+  #mv { background: url(../img/common/mv_sub.png) no-repeat center top/cover;}
+  #mv .mv_bike { width: 100px;}
+  #mv .mv_car { width: 150px;}
+  #mv h2 { font-size: 4rem;}
+  #mv h2::before { width: 70px; top: 190px;}
+}
+
+/* section #mobility */
+#mobility { margin: 150px 0;}
+#mobility h2 { font-size: 4rem; margin-bottom: 50px;}
+#mobility .tab { display: flex; text-align: center;}
+#mobility .tab li  { width: 50%; padding: 15px 0; background: #eee; font-size: 2.2rem; font-weight: 500; border-radius: 15px 15px 0 0; cursor: pointer;}
+#mobility .tab li.on { background: #F88B23; color: #fff;}
+
+@media (max-width:768px) {
+  #mobility h2 { font-size: 3rem;}
+  #mobility .tab li { font-size: 1.8rem;}
+}
+
+#mobility .contents { position: relative;}
+#mobility .contents > div { padding: 70px 80px; box-shadow: 1px 1px 10px rgba(0, 0, 0, .1);}
+#mobility .contents h3 { font-size: 2.5rem; font-weight: 700; margin-bottom: 40px;}
+#mobility .picture { height: 300px; margin: 30px 0;}
+#mobility .bike_pic { position: absolute; right: 30px; bottom: 70px;} 
+#mobility .bike_pic img { height: 100%;}
+#mobility .car_pic { position: absolute; right: 50px; bottom: 30px;} 
+#mobility .car_pic img { height: 75%;}
+#mobility .contents dl { margin-left: 30px;}
+#mobility .contents dl:not(:last-child) { padding-bottom: 30px;}
+#mobility .contents dl dt { font-size: 2rem; font-weight: 500; padding-bottom: 5px;}
+#mobility .contents dl dd { padding-left: 15px; display: flex; flex-direction: column;}
+
+@media (max-width:1200px) {
+  #mobility .contents h3 { text-align: center;}
+  #mobility .picture { height: 250px; margin: 30px 0;}
+  #mobility .bike_pic  { position: static; text-align: center;}
+  #mobility .car_pic { position: static; text-align: center;} 
+  #mobility .car_pic img { height: 80%;}
+ #mobility .contents dl dd { display: block;}
+}
+@media (max-width:768px) {
+  #mobility .contents > div { padding: 50px 20px;}
+  #mobility .contents h3 { font-size: 1.8rem;}
+  #mobility .contents dl { margin-left: 0;}
+  #mobility .contents dl dt { font-size: 1.6rem;}
+  #mobility .contents dl dd { font-size: 1.4rem;}
+  #mobility .picture { height: 150px; margin: 30px 0;}
+  #mobility .bike_pic img { height: 100%;}
+  #mobility .car_pic img { height: 80%;}
+}
+
+
+

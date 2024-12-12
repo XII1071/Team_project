@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>투어지</title>
+
+  <!-- meta -->
+  <meta name="keywords" content="투어지">
+  <meta name="description" content="이동을 그리다, 이동을 디자인하다, 투어지">
+
+  <!-- pavicon -->
+  <link rel="shortcut icon" href="img/common/favicon.ico" type="image/x-icon">
+
+  <!-- og -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://58.239.58.243:50101/kdt2024/project/b/site">
+  <meta property="og:image" content="투어지">
+  <meta property="og:title" content="투어지">
+  <meta property="og:description" content="이동을 그리다, 이동을 디자인하다, 투어지">
+
+  <!-- font -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+  <!-- css -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- js -->
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/main.js"></script>
+</head>
+
+<body>
+  <div id="wrap">
+    <header id="header">
+      <div class="inner">
+        <h1><a href="index.html"><img src="img/common/logo.png" alt="tourzy"></a></h1>
+
+        <nav>
+          <ul class="gnb">
+            <li><a href="sub/company.html">투어지</a>
+              <ul class="depth2">
+                <li><a href="sub/company.html">회사 소개</a></li>
+                <li><a href="sub/mobility.html">모빌리티 소개</a></li>
+              </ul>
+            </li>
+            <li><a href="sub/use.html">이용안내</a>
+              <ul class="depth2">
+                <li><a href="sub/use.html#fee">이용 요금</a></li>
+                <li><a href="sub/use.html#method">이용 방법</a></li>
+                <li><a href="sub/use.html#location">이용 가능 지역</a></li>
+                <li><a href="sub/use.html#recommend">추천 여행지</a></li>
+              </ul>
+            </li>
+            <li><a href="sub/news.html">소식</a>
+              <ul class="depth2">
+                <li><a href="sub/news.html?sectionId=news">뉴스</a></li>
+                <li><a href="sub/news.html?sectionId=event">이벤트</a></li>
+                <li><a href="sub/news.html?sectionId=review">후기</a></li>
+              </ul>
+            </li>
+            <div class="partner"><a href="sub/franchise.html">파트너 모집 <span class="material-symbols-outlined">
+                  diversity_3
+                </span></a></div>
+          </ul>
+
+
+        </nav>
+
+        <span class="ham_menu material-symbols-outlined">
+          menu
+        </span>
+      </div>
+
+      <div class="depth2_bg"></div>
+
+    </header>
+
+    <div class="ham">
+      <span class="close material-symbols-outlined">
+        close
+      </span>
+
+      <ul class="ham_gnb">
+        <li><a href="sub/company.html">투어지<span class="material-symbols-outlined">
+              chevron_right
+            </span></a>
+          <ul class="ham_depth2">
+            <li><a href="sub/company.html">회사 소개</a></li>
+            <li><a href="sub/mobility.html">모빌리티 소개</a></li>
+          </ul>
+        </li>
+        <li><a href="sub/franchise.html">파트너 모집<span class="material-symbols-outlined">
+              chevron_right
+            </span></a></li>
+        <li><a href="sub/use.html">이용안내<span class="material-symbols-outlined">
+              chevron_right
+            </span></a>
+          <ul class="ham_depth2">
+            <li><a href="sub/use.html#fee">이용 요금</a></li>
+            <li><a href="sub/use.html#method">이용 방법</a></li>
+            <li><a href="sub/use.html#location">이용 가능 지역</a></li>
+            <li><a href="sub/use.html#recommend">추천 여행지</a></li>
+          </ul>
+        </li>
+        <li><a href="sub/news.html">소식<span class="material-symbols-outlined">
+              chevron_right
+            </span></a>
+          <ul class="ham_depth2">
+            <li><a href="sub/news.html?sectionId=news">뉴스</a></li>
+            <li><a href="sub/news.html?sectionId=event">이벤트</a></li>
+            <li><a href="sub/news.html?sectionId=review">후기</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+
+    <main>
+      <section id="mv">
+        <div class="mv_main"><img src="img/main/mv_main.png"></div>
+        <div class="inner">
+          <div class="mv_maintxt">
+            <p>이동을 그리다, 이동을 디자인하다</p>
+            <h2>투어지</h2>
+            <div class="more"><a href="">앱 다운로드</a></div>
+          </div>
+        </div>
+
+        <div class="swiper swiper_mv">
+          <ul class="swiper-wrapper">
+            <li class="swiper-slide mv_picture1"><!-- <img src="img/main/mv_picture1.png"> --></li>
+            <li class="swiper-slide mv_picture2"><!-- <img src="img/main/mv_picture2.png"> --></li>
+          </ul>
+        </div>
+
+        <div class="keywords">
+          <dl>
+            <dt>전국 <span>최초</span></dt>
+            <dd>초소형 전기차 셰어링 서비스 </dd>
+          </dl>
+          <dl>
+            <dt>부산 <span>대표</span> 공유기업</dt>
+            <dd>2021 부산광역시 선정</dd>
+          </dl>
+          <dl>
+            <dt>관광사업 공모 <span>1위</span></dt>
+            <dd>부산관광공사 산&middot;관&middot;학 협력 관광사업 발굴공모 선정</dd>
+          </dl>
+        </div>
+      </section>
+
+      <section id="value">
+        <div class="inner">
+          <div class="title">
+            <h2>투어지가 추구하는 가치</h2>
+            <p>더 나은 세상을 향해 끊임없이 나아갑니다.</p>
+          </div>
+
+          <div class="contents">
+            <dl style="background-color: #FFFAF3;">
+              <div><img src="./img/main/value_1.png" alt="지구 환경 아이콘"></div>
+              <dt>환경</dt>
+              <dd>탄소 배출 절감</dd>
+            </dl>
+            <dl style="background-color: #FFF4E4;">
+              <div><img src="./img/main/value_2.png" alt="버스, 좌우화살표, 자전거 아이콘"></div>
+              <dt>이동</dt>
+              <dd>대중 교통 연계 및<br>
+                새로운 이동 경험 제공</dd>
+            </dl>
+            <dl style="background-color: #FFECD2;">
+              <div><img src="./img/main/value_3.png" alt="안전모 아이콘"></div>
+              <dt>안전</dt>
+              <dd>전체 차량 보험 적용 및<br>
+                지속적인 안전 교육</dd>
+            </dl>
+          </div>
+
+
+        </div>
+      </section>
+
+      <section id="intro">
+        <div class="inner">
+          <ul>
+            <dl>
+              <dt class="intro_1">편하게 달리고<br>
+                환경도 지키고</dt>
+              <dd>깨끗하고 친환경적인 모빌리티<br>
+                투어지를 이용해보세요.</dd>
+            </dl>
+            <li><img src="./img/main/intro_1.png" alt=""></li>
+          </ul>
+
+          <ul>
+            <li><img src="./img/main/intro_2.png" alt=""></li>
+            <dl>
+              <dt class="intro_2">복잡한 관광지에서<br>
+                빠르고 간편하게</dt>
+              <dd>교통 음영지역을 해소하고<br>
+                교통 환경 개선 및 편의성 향상을 제공해요.</dd>
+            </dl>
+          </ul>
+
+          <ul>
+            <dl>
+              <dt class="intro_3">자유롭게 반납하세요!</dt>
+              <dd>전기자전거는 보도내 안전한 곳에,<br>
+                전기차는 가까운 스테이션에서<br>
+                반납할 수 있어요.</dd>
+            </dl>
+            <li><img src="./img/main/intro_3.png" alt=""></li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="banner">
+        <div class="inner">
+          <dl>
+            <dt>전기차도, 전기자전거도<br>
+              <span>투어지</span>에서!
+            </dt>
+            <dd>국내 최초 초소형 전기차 셰어링 및<br>
+              부산 대표 공유전기자전거</dd>
+          </dl>
+
+          <ul>
+            <li class="bike"><img src="./img/common/bike.png" alt="투어지 자전거 사진"></li>
+            <li class="car"><img src="./img/common/car.png" alt="투어지 전기차 사진"></li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="how">
+        <div class="inner">
+          <div class="phone">
+            <div class="phone_frame"><img src="./img/main/how_frame.png" alt="스마트폰 목업"></div>
+
+            <div class="swiper swiper_how_left">
+              <ul class="swiper-wrapper">
+                <li class="swiper-slide"><img src="img/main/how_phone1.png" alt="모바일 앱 설치화면"></li>
+                <li class="swiper-slide"><img src="img/main/how_phone2.png" alt="모바일 바이크 지도화면"></li>
+                <li class="swiper-slide"><img src="img/main/how_phone3.png" alt="모바일 QR인식화면"></li>
+                <li class="swiper-slide"><img src="img/main/how_phone4.png" alt=""></li>
+              </ul>
+
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="how_right">
+            <div class="title">
+              <h2>투어지 앱</h2>
+              <p>편리하고 간편한 앱!</p>
+            </div>
+
+            <div class="how_contents">
+              <div class="pagination_bike"><img src="img/common/bike_illust_right.png"></div>
+              <div class="swiper swiper_how_right">
+                <ul class="swiper-wrapper">
+                  <li class="swiper-slide">
+                    <h3><span>첫 번째</span><br> 다운로드하고,</h3>
+                    <p>플레이 스토어와 앱 스토어에서<br>
+                      투어지를 검색 후 앱을 다운로드해 주세요.</p>
+                  </li>
+                  <li class="swiper-slide">
+                    <h3><span>두 번째</span><br> 찾고,</h3>
+                    <p>플레이 스토어와 앱 스토어에서
+                      투어지를 검색 후 앱을 다운로드해 주세요.</p>
+                  </li>
+                  <li class="swiper-slide">
+                    <h3><span>세 번째</span><br> 대여하고,</h3>
+                    <p>플레이 스토어와 앱 스토어에서
+                      투어지를 검색 후 앱을 다운로드해 주세요.</p>
+                  </li>
+                  <li class="swiper-slide">
+                    <h3><span>마지막 </span><br>반납하면 끝!</h3>
+                    <p>플레이 스토어와 앱 스토어에서
+                      투어지를 검색 후 앱을 다운로드해 주세요.</p>
+                  </li>
+                </ul>
+
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+
+              </div>
+            </div>
+
+            <ul class="how_button">
+              <li class="more"><a href="#">Google Play</a></li>
+              <li class="more"><a href="#">App Store</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="site">
+        <div class="inner">
+          <div class="site_left">
+            <div class="title">
+              <h2>투어지 이용 가능 위치</h2>
+              <p>투어지를 만날 수 있는 곳!</p>
+            </div>
+
+            <div class="site_list">
+              <dl class="bike">
+                <dt>전기자전거</dt>
+                <dd>부산시 수영구</dd>
+                <dd>부산시 남구</dd>
+                <dd>부산시 해운대구</dd>
+              </dl>
+              <dl class="car">
+                <dt>마이크로카</dt>
+                <dd>벡스코 제2전시장</dd>
+                <dd>오시리아</dd>
+                <dd>송정 중앙 공영주차장</dd>
+                <dd>에스 스테이펜션</dd>
+                <dd>롯데아울렛 동부산점 야외차</dd>
+              </dl>
+            </div>
+
+            <span class="material-symbols-outlined">
+              more_vert
+            </span><br>
+            <p>더 많은 장소가 궁금하다면?</p>
+            <div class="more"><a href="#">더 알아보기</a></div>
+          </div>
+
+          <div class="site_right">
+            <div><img src="img/main/site_map.png" alt="경상도 지도 그림"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="review">
+        <div class="title">
+          <h2>투어지 이용 후기</h2>
+          <p>사용 고객님들의 생생한 이용후기!</p>
+        </div>
+
+        <div class="swiper swiper_review">
+          <ul class="swiper-wrapper">
+            <li class="swiper-slide">
+              <div class="picture">
+                <div class="picture_frame">
+                  <img src="img/main/review_1.jpeg" alt="후기 사진 1">
+                </div>
+              </div>
+              <div class="txt">
+                <p>@sjdkfife124</p>
+                <p>“ 너무 재미있게<br>
+                  이용하고 갑니다! ”</p>
+                <p>2024.04.26</p>
+              </div>
+            </li>
+            <li class="swiper-slide">
+              <div class="picture">
+                <div class="picture_frame">
+                  <img src="img/main/review_1.jpeg" alt="후기 사진 1">
+                </div>
+              </div>
+              <div class="txt">
+                <p>@sjdkfife124</p>
+                <p>“ 너무 재미있게<br>
+                  이용하고 갑니다! ”</p>
+                <p>2024.04.26</p>
+              </div>
+            </li>
+            <li class="swiper-slide">
+              <div class="picture">
+                <div class="picture_frame">
+                  <img src="img/main/review_1.jpeg" alt="후기 사진 1">
+                </div>
+              </div>
+              <div class="txt">
+                <p>@sjdkfife124</p>
+                <p>“ 너무 재미있게<br>
+                  이용하고 갑니다! ”</p>
+                <p>2024.04.26</p>
+              </div>
+            </li>
+            <li class="swiper-slide">
+              <div class="picture">
+                <div class="picture_frame">
+                  <img src="img/main/review_1.jpeg" alt="후기 사진 1">
+                </div>
+              </div>
+              <div class="txt">
+                <p>@sjdkfife124</p>
+                <p>“ 너무 재미있게<br>
+                  이용하고 갑니다! ”</p>
+                <p>2024.04.26</p>
+              </div>
+            </li>
+            <li class="swiper-slide">
+              <div class="picture">
+                <div class="picture_frame">
+                  <img src="img/main/review_1.jpeg" alt="후기 사진 1">
+                </div>
+              </div>
+              <div class="txt">
+                <p>@sjdkfife124</p>
+                <p>“ 너무 재미있게<br>
+                  이용하고 갑니다! ”</p>
+                <p>2024.04.26</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="with">
+        <div class="title">
+          <h2>투어지와 함께합니다</h2>
+        </div>
+
+        <div class="with_logo">
+          <div>
+            <ul>
+              <li><img src="img/main/with01_humax.svg" alt="humax"></li>
+              <li><img src="img/main/with02_alticast.svg" alt="alticast"></li>
+              <li><img src="img/main/with03_hiparking.svg" alt="hiparking"></li>
+              <li><img src="img/main/with04_car123.svg" alt="car123"></li>
+              <li><img src="img/main/with05.svg" alt="국토교통부"></li>
+              <li><img src="img/main/with06.svg" alt="한국관광공사"></li>
+              <li><img src="img/main/with07_renault.png" alt="르노코리아자동차"></li>
+              <li><img src="img/main/with08_busan.svg" alt="부산광역시"></li>
+              <li><img src="img/main/with09_bmc.svg" alt="부산도시공사"></li>
+              <li><img src="img/main/with10_bto.svg" alt="부산관광공사"></li>
+              <li><img src="img/main/with11_bexco.svg" alt="bexco"></li>
+              <li><img src="img/main/with12.svg" alt="부산시설공단"></li>
+            </ul>
+          </div>
+
+          <div>
+            <ul>
+              <li><img src="img/main/with01_humax.svg" alt="humax"></li>
+              <li><img src="img/main/with02_alticast.svg" alt="alticast"></li>
+              <li><img src="img/main/with03_hiparking.svg" alt="hiparking"></li>
+              <li><img src="img/main/with04_car123.svg" alt="car123"></li>
+              <li><img src="img/main/with05.svg" alt="국토교통부"></li>
+              <li><img src="img/main/with06.svg" alt="한국관광공사"></li>
+              <li><img src="img/main/with07_renault.png" alt="르노코리아자동차"></li>
+              <li><img src="img/main/with08_busan.svg" alt="부산광역시"></li>
+              <li><img src="img/main/with09_bmc.svg" alt="부산도시공사"></li>
+              <li><img src="img/main/with10_bto.svg" alt="부산관광공사"></li>
+              <li><img src="img/main/with11_bexco.svg" alt="bexco"></li>
+              <li><img src="img/main/with12.svg" alt="부산시설공단"></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <div class="inner">
+
+        <div class="footer_logo">
+          <img src="img/common/logo.png" alt="tourzy">
+        </div>
+
+        <ul class="sns">
+          <li><a href="#"><a href="#"><img src="img/common/icon_blog.png" alt="네이버 블로그 바로가기"></a></li>
+          <li><a href="#"><img src="img/common/icon_insta.png" alt="인스타그램 바로가기"></a></li>
+          <li><a href="#"><img src="img/common/icon_facebook.png" alt="페이스북 바로가기"></a></li>
+          <li><a href="#"><img src="img/common/icon_youtube.png" alt="유튜브 바로가기"></a></li>
+        </ul>
+
+        <div class="txt">
+          <ul class="link">
+            <li><a href="#">회사소개</a></li>
+            <li><a href="#">고객센터</a></li>
+            <li><a href="#">회원이용약관</a></li>
+            <li><a href="#">개인정보처리방침</a></li>
+            <li><a href="#">자동차 대여약관</a></li>
+          </ul>
+          <address>
+            <ul>
+              <li>(주)투어스태프 | 대표: 김남진 <span>|</span> </li>
+              <li><span>주소: </span>부산광역시 해운대구 APEC로 30 108호</li>
+            </ul>
+            <ul>
+              <li>대표번호 : 051-740-4080 <span>|</span> </li>
+              <li>사업자 등록번호: 110-87-01893</li>
+            </ul>
+            <ul>
+              <li>개인정보관리책임자 : 김승휘 <span>|</span></li>
+              <li>통신판매업 신고번호 : 2021-부산해운대-0918</li>
+            </ul>
+          </address>
+        </div>
+
+        <div class="copy">COPYRIGHT © 2021 TOURZY CORP. ALL RIGHTS RESERVED.</div>
+
+      </div>
+    </footer>
+
+    <ul class="float_button">
+      <li>
+        <div>가맹문의</div><a href="#"><span class="material-symbols-outlined">
+            storefront
+          </span></a>
+
+      </li>
+      <li>
+        <div>상담하기</div><a href="#"><img src="img/common/button_kakao.png" alt="카톡 상담하기"></a>
+      </li>
+      <li><a href="#"><span class="material-symbols-outlined">
+            vertical_align_top
+          </span></a></li>
+    </ul>
+  </div>
+</body>
+<script>
+  AOS.init();
+  AOS.init({
+    disable: function () {
+      var maxWidth = 800;
+      return window.innerWidth < maxWidth;
+    }
+  });
+</script>
+
+</html>
